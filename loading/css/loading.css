@@ -1,4 +1,5 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
+
 html,body,div,ul,li,p,span{
 	margin: 0;
 	padding: 0;
@@ -41,6 +42,7 @@ html,body{
 	height: 3px;
 	margin: 0 0 0 -480px;
 	background: #CCCCCC;
+	text-align: center;
 }
 
 .loading-bar{
@@ -51,11 +53,13 @@ html,body{
 	width: 100%;
 	height: 3px;
 	background: #078CB8;
+	text-align: center;
 }
 
 .loading-text{
 	color: #000000;
 	font-size: 14px;
+	text-align: center;
 }
 
 .main ul:after{
