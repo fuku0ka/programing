@@ -7,7 +7,7 @@
 
 		//TOPページをフェードイン表示する
 		function open(){
-			$('body').find('img').css({
+			$('.main').css({
 				'display': 'block',
 				'opacity': 0
 			}).animate({'opacity': 1}, 3000);
@@ -52,7 +52,7 @@
 
 		//初期設定
 		function init(){
-			$('body').find('img').each(function(index){
+			$('.main').find('img').each(function(index){
 				srcList[index] = $(this).attr('src');
 			});
 			//body要素の最後ににコード追加

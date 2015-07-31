@@ -1,16 +1,22 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 
 html,body,div,ul,li,p,span{
 	margin: 0;
 	padding: 0;
 }
 
+/*テスト用 実装時削除(ﾛｰﾃﾞｨﾝｸﾞﾊﾞｰには別途設定済み)*/
 body{
 	text-align: center;
 }
 
 html,body{
 	height: 100%;
+}
+
+/*====初期値====*/
+.main{
+	display: none;
 }
 
 /*テスト用 実装時削除*/
@@ -29,11 +35,11 @@ html,body{
 }
 /*テスト用 実装時削除*/
 .main li img{
-	display: none;
 	width: 230px;
 	height: 167px;
 }
 
+/*====ローディングバー下地====*/
 .loading{
 	position: absolute;
 	top: 50%;
@@ -44,7 +50,7 @@ html,body{
 	background: #CCCCCC;
 	text-align: center;
 }
-
+/*ローディングバー変化部分*/
 .loading-bar{
 	display: block;
 	position: relative;
@@ -55,13 +61,14 @@ html,body{
 	background: #078CB8;
 	text-align: center;
 }
-
+/*パーセント表示*/
 .loading-text{
 	color: #000000;
 	font-size: 14px;
 	text-align: center;
 }
 
+/*テスト用 実装時削除*/
 .main ul:after{
   content:".";
   display:block;
